@@ -1,0 +1,3 @@
+In Python you can make classes
+In Python you can import modules to do even more things
+In Python you can see if your birthday is in the first million digits of pi
