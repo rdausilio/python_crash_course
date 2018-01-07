@@ -1,3 +1,5 @@
+"""A class that can be used to represent a car."""
+
 class Car():
 
     def __init__(self, make, model, year):
@@ -22,7 +24,9 @@ class Car():
     def increment_odometer(self, miles):
         self.odometer_reading += miles
 
+
 my_new_car = Car("audi", "a4", 2016)
+
 print(my_new_car.get_descriptive_name())
 my_new_car.read_odometer()
 
